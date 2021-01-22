@@ -14,9 +14,6 @@ public class MainActivity extends AppCompatActivity {
     Button btnPlay, btnPause, btnStop;
     long countTime = 0;
 
-    // Debug
-    private static final String TAG = "MainActivity";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +55,5 @@ public class MainActivity extends AppCompatActivity {
 
             btnStop.setVisibility(View.INVISIBLE);
         });
-
-
     }
 }
