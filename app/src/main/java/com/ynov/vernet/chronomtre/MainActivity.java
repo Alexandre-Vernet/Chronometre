@@ -2,7 +2,6 @@ package com.ynov.vernet.chronomtre;
 
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
